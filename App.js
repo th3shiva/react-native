@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import State from './components/State';
+import State from './components/hooks/State';
+import Props from './components/hooks/props';
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Text style={styles.text}>Like Share Subscribe</Text>
 
       <State />
+      <Props />
     </View>
   );
 };
