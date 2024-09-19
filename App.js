@@ -1,16 +1,35 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, SectionList } from 'react-native';
 import State from './components/hooks/State';
 import Props from './components/hooks/props';
+import Inputhandeling from './components/inputhandeling';
+import SimpleForm from './components/simpleForm';
+import ListswithFlatlist from './components/list1';
+import GridDynamic from './components/grid-dynamic';
+import LoopWdFlatList from './components/LoopWdFlatList';
+import Sectionlistinrn from './components/sectionlist';
+import Lifecycle from './components/hooks/Lifecycle';
+import Togglecomponent from './components/Togglecomponent';
+import Buttons from './components/Buttons';
 
 const App = () => {
   return (
-    <View style={styles.container}>
+    // <View style={styles.container}>
+    <View>
       <Text style={styles.text}>Hello, SyncElevate</Text>
       <Text style={styles.text}>Like Share Subscribe</Text>
 
-      <State />
-      <Props />
+      {/* <State />
+      <Props /> */}
+      {/* <Inputhandeling /> */}
+      {/* <SimpleForm /> */}
+      {/* <ListswithFlatlist /> */}
+      {/* <GridDynamic /> */}
+      {/* <LoopWdFlatList /> */}
+      {/* <Sectionlistinrn /> */}
+      {/* <Lifecycle /> */}
+      {/* <Togglecomponent /> */}
+      <Buttons />
     </View>
   );
 };
@@ -18,7 +37,7 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
+    //justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#f0f0f0',
   },
