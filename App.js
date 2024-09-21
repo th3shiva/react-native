@@ -13,6 +13,7 @@ import Togglecomponent from './components/Togglecomponent';
 import Buttons from './components/Buttons';
 import RadioButton from './components/RadioButton';
 import DynamicRadio from './components/dynamicRadio';
+import Loader from './components/Loader';
 
 const App = () => {
   return (
@@ -33,7 +34,8 @@ const App = () => {
       {/* <Togglecomponent /> */}
       {/* <Buttons /> */}
       {/* <RadioButton /> */}
-      <DynamicRadio />
+      {/* <DynamicRadio /> */}
+      <Loader />
     </View>
   );
 };
