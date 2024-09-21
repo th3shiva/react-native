@@ -12,13 +12,14 @@ import Lifecycle from './components/hooks/Lifecycle';
 import Togglecomponent from './components/Togglecomponent';
 import Buttons from './components/Buttons';
 import RadioButton from './components/RadioButton';
+import DynamicRadio from './components/dynamicRadio';
 
 const App = () => {
   return (
     // <View style={styles.container}>
     <View>
-      <Text style={styles.text}>Hello, SyncElevate</Text>
-      <Text style={styles.text}>Like Share Subscribe</Text>
+      <Text style={styles.text}>Hello, Sandeep</Text>
+      {/* <Text style={styles.text}>Like Share Subscribe</Text> */}
 
       {/* <State />
       <Props /> */}
@@ -31,7 +32,8 @@ const App = () => {
       {/* <Lifecycle /> */}
       {/* <Togglecomponent /> */}
       {/* <Buttons /> */}
-      <RadioButton />
+      {/* <RadioButton /> */}
+      <DynamicRadio />
     </View>
   );
 };
@@ -39,7 +41,7 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    //justifyContent: 'center',
+    justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#f0f0f0',
   },
