@@ -11,6 +11,7 @@ import Sectionlistinrn from './components/sectionlist';
 import Lifecycle from './components/hooks/Lifecycle';
 import Togglecomponent from './components/Togglecomponent';
 import Buttons from './components/Buttons';
+import RadioButton from './components/RadioButton';
 
 const App = () => {
   return (
@@ -29,7 +30,8 @@ const App = () => {
       {/* <Sectionlistinrn /> */}
       {/* <Lifecycle /> */}
       {/* <Togglecomponent /> */}
-      <Buttons />
+      {/* <Buttons /> */}
+      <RadioButton />
     </View>
   );
 };
