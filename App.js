@@ -14,12 +14,13 @@ import Buttons from './components/Buttons';
 import RadioButton from './components/RadioButton';
 import DynamicRadio from './components/dynamicRadio';
 import Loader from './components/Loader';
+import ModalComponent from './components/Modal';
 
 const App = () => {
   return (
-    // <View style={styles.container}>
-    <View>
-      <Text style={styles.text}>Hello, Sandeep</Text>
+     <View style={styles.container}>
+     {/* <View> */}
+      {/* <Text style={styles.text}>Hello, Sandeep</Text> */}
       {/* <Text style={styles.text}>Like Share Subscribe</Text> */}
 
       {/* <State />
@@ -35,7 +36,8 @@ const App = () => {
       {/* <Buttons /> */}
       {/* <RadioButton /> */}
       {/* <DynamicRadio /> */}
-      <Loader />
+      {/* <Loader /> */}
+      <ModalComponent />
     </View>
   );
 };
@@ -44,14 +46,14 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#f0f0f0',
+    //alignItems: 'center',
+     backgroundColor: '#f0f0f0',
   },
-  text: {
-    fontSize: 25,
-    fontWeight: 'bold',
-    color: 'orange',
-  },
+  // text: {
+  //   fontSize: 25,
+  //   fontWeight: 'bold',
+  //   color: 'orange',
+  // },
 });
 
 export default App;
