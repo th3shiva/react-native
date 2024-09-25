@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, SectionList } from 'react-native';
+import { View, Text, StyleSheet, SectionList, Pressable } from 'react-native';
 import State from './components/hooks/State';
 import Props from './components/hooks/props';
 import Inputhandeling from './components/inputhandeling';
@@ -15,6 +15,7 @@ import RadioButton from './components/RadioButton';
 import DynamicRadio from './components/dynamicRadio';
 import Loader from './components/Loader';
 import ModalComponent from './components/Modal';
+import Pressablecomponent from './components/Pressablecomponent';
 
 const App = () => {
   return (
@@ -37,7 +38,8 @@ const App = () => {
       {/* <RadioButton /> */}
       {/* <DynamicRadio /> */}
       {/* <Loader /> */}
-      <ModalComponent />
+      {/* <ModalComponent /> */}
+      <Pressablecomponent />
     </View>
   );
 };
