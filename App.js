@@ -31,6 +31,7 @@ import PostApiWithInput from './components/Apis/PostApiWithInput';
 import MakeListfromAPI from './components/Apis/MakeListfromAPI';
 import SearchApi from './components/Apis/SearchApi';
 import Ref from './components/hooks/Ref';
+import AsyncStoragee from './components/AsyncStoragee';
 
 const App = () => {
   return (
@@ -69,7 +70,8 @@ const App = () => {
       {/* <PostApiWithInput /> */}
       {/* <MakeListfromAPI /> */}
       {/* <SearchApi /> */}
-      <Ref />
+      {/* <Ref /> */}
+      <AsyncStoragee />
     </View>
   );
 };
