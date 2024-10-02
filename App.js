@@ -19,6 +19,18 @@ import Pressablecomponent from './components/Pressablecomponent';
 import StatusbarComponent from './components/StatusbarComponent';
 import PlatformComponent from './components/PlatformComponent';
 import ModalCustom from './components/ModalCustom';
+import StackNavigation from './components/navigation/StackNavigation';
+import StackNavigationtwo from './components/navigation/StackNavigationtwo';
+import PassDatabwScreens from './components/navigation/PassDatabetweenScreens';
+import TabNavigation from './components/navigation/TabNavigation';
+import TopTabNavigation from './components/navigation/TopTabNavigation';
+import GetApi from './components/Apis/GetApi';
+import FlatListapi from './components/Apis/FlatListapi';
+import StaticPostApi from './components/Apis/StaticPostApi';
+import PostApiWithInput from './components/Apis/PostApiWithInput';
+import MakeListfromAPI from './components/Apis/MakeListfromAPI';
+import SearchApi from './components/Apis/SearchApi';
+import Ref from './components/hooks/Ref';
 
 const App = () => {
   return (
@@ -45,7 +57,19 @@ const App = () => {
       {/* <Pressablecomponent /> */}
       {/* <StatusbarComponent /> */}
       {/* <PlatformComponent /> */}
-      <ModalCustom />
+      {/* <ModalCustom /> */}
+      {/* <StackNavigation /> */}
+      {/* <StackNavigationtwo /> */}
+      {/* <PassDatabwScreens /> */}
+      {/* <TabNavigation /> */}
+      {/* <TopTabNavigation /> */}
+      {/* <GetApi /> */}
+      {/* <FlatListapi /> */}
+      {/* <StaticPostApi /> */}
+      {/* <PostApiWithInput /> */}
+      {/* <MakeListfromAPI /> */}
+      {/* <SearchApi /> */}
+      <Ref />
     </View>
   );
 };

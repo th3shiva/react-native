@@ -17,10 +17,20 @@ const StatusbarComponent = () => {
   )
 }
 
-const styles=StyleSheet.create({
-    main:{
-        flex:1,
-        justifyContent:"center"
-    } ``
-})
+// const styles=StyleSheet.create({
+//     main:{
+//         flex:1,
+//         justifyContent:"center"
+//     } 
+// })
+const styles = StyleSheet.create({
+  main: {
+      flex: 1,
+      justifyContent: "center",
+  },
+  btn: {
+      margin: 10, // Optional: add some spacing
+  }
+});
+
 export default StatusbarComponent
