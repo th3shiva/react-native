@@ -32,6 +32,7 @@ import MakeListfromAPI from './components/Apis/MakeListfromAPI';
 import SearchApi from './components/Apis/SearchApi';
 import Ref from './components/hooks/Ref';
 import AsyncStoragee from './components/AsyncStoragee';
+import LearnRedux from './components/redux/learnRedux';
 
 const App = () => {
   return (
@@ -71,7 +72,8 @@ const App = () => {
       {/* <MakeListfromAPI /> */}
       {/* <SearchApi /> */}
       {/* <Ref /> */}
-      <AsyncStoragee />
+      {/* <AsyncStoragee /> */}
+      <LearnRedux />
     </View>
   );
 };
